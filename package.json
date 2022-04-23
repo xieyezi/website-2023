@@ -1,0 +1,18 @@
+{
+  "name": "vitepress-blog",
+  "version": "1.0.0",
+  "description": "vitepress bloh",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "author": "xieyezi",
+  "license": "ISC",
+  "devDependencies": {
+    "@vueuse/core": "^8.3.1",
+    "vite": "^2.9.5",
+    "vitepress": "^0.22.3"
+  }
+}
