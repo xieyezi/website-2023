@@ -18,6 +18,12 @@
   --cm-ttc-c-thumb: #333;
   --cm-ttc-c-track: #111;
 }
+.dark tr:nth-child(2n) {
+  background-color: var(--c-bg) !important;
+}
+.dark tr {
+  border-top: 1px solid var(--code-inline-bg-color) !important;
+}
 
 
 main.home ul > li {
@@ -31,16 +37,6 @@ main.home ul > li:hover {
 main.home {
   position: relative;
   overflow-x: hidden;
-}
-
-main.home::before {
-  content: '';
-  inset: 0;
-  position: absolute;
-  z-index: -1;
-  background-image: url("/logo.png");
-  background-repeat: repeat;
-  background-size: 50%;
 }
 
 @media screen and (max-width: 768px) {
