@@ -25,7 +25,6 @@
   border-top: 1px solid var(--code-inline-bg-color) !important;
 }
 
-
 main.home ul > li {
   opacity: 0.8;
   transition: .1s ease;
