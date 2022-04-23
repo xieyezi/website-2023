@@ -8,8 +8,8 @@ const toggleDark = useToggle(isDark)
 </script>
 
 <template>
-  <div text-right>
-    <span v-if="isDark" class="i-carbon:moon inline-block text-xl" @click="toggleDark()" />
-    <span v-else class="i-carbon:sun inline-block text-xl" @click="toggleDark()" />
+  <div text-right pl-4 flex justify-center justify-items-center>
+    <span v-if="isDark" class="i-carbon:moon inline-block text-lg" @click="toggleDark()" />
+    <span v-else class="i-carbon:sun inline-block text-lg" @click="toggleDark()" />
   </div>
 </template>

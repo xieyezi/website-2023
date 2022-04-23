@@ -72,13 +72,15 @@ main.home {
 
 /* Overrides */
 
-.home-content {
-  max-width: 1800px !important;
-}
-
 .custom-block.tip {
   border-color: var(--c-accent) !important;
   background-color: #90C32130 !important;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 1.5rem 4rem;
+  max-width: 64rem !important;
 }
 
 th, td {
