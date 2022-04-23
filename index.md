@@ -12,8 +12,7 @@ footer: "MIT Licensed | Copyright © 2022-PRESENT xieyezi"
 
 My name is [xieyezi](https://patak.dev/). I'm a [Vite](https://github.com/vitejs/vite) core team member, a [Vue](https://v3.vuejs.org/) team member, and I collaborate in Vue ecosystem projects like [VueUse](https://github.com/vueuse/vueuse) (see [three part series about ignorableWatch and useRefHistory](https://patak.dev/vue/ignorable-watch.html)), [Vitepress](https://github.com/vuejs/vitepress) and others.
 
-[forent-end](/front-end/)
-
+[forent-end](/article/从CJS和ESM读懂package.json.html)
 
 <style>
 main {

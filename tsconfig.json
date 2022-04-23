@@ -14,6 +14,7 @@
     "strictNullChecks": true,
     "forceConsistentCasingInFileNames": true,
     "types": [
+      "node",
       "vite/client",
       "vitepress"
     ],
@@ -22,6 +23,6 @@
     "./*.ts",
     "./.vitepress/**/*.ts",
     "./.vitepress/**/*.vue"
-  ],
+, "generate.js"  ],
   "exclude": ["dist", "node_modules"]
 }
