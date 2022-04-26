@@ -66,7 +66,7 @@ const article = [
           { text: "javascript的继承", link: "/article/继承.html" },
           { text: "作用域链-闭包-执行上下文", link: "/article/作用域链-闭包-执行上下文.html" },
           { text: "一些语法块", link: "/article/一些语法块.html" },
-          { text: "防抖和节流", link: "/article/防抖和节流.html" },
+          { text: "防抖和节流", link: "/article/防抖和节流.html" }
         ]
       },
       {
@@ -82,9 +82,9 @@ const article = [
         text: "生活",
         children: [
           { text: "2019一路走来", link: "/article/2019一路走来.html" },
-          { text: "我的2018年总结", link: "/article/我的2018年总结.html" },
+          { text: "我的2018年总结", link: "/article/我的2018年总结.html" }
         ]
-      },
+      }
     ]
   }
 ]

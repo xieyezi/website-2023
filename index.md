@@ -10,9 +10,7 @@ footer: "MIT Licensed | Copyright © 2022-PRESENT xieyezi"
    
 ### Hi there 👋 <code>![visitors](https://visitor-badge.glitch.me/badge?page_id=xieyezi.xieyezi)</code>
 
-
-
-My name is xieyezi, I am a front-end developer from China, I love sharing and open source, 
+My name is xieyezi, I am a front-end developer from China, I love sharing and open source,
 my GitHub star count has reached [1.1k+](). The main technologies mastered includes:
 
 <code><span class="i-logos-javascript inline-block text-lg" /> </code>
@@ -26,7 +24,6 @@ my GitHub star count has reached [1.1k+](). The main technologies mastered inclu
 These are the repo I'm involved in maintaining：
 
 - [Semi Design](https://github.com/DouyinFE/semi-design.git)(5.7k+ <span class="i-carbon-star-filled inline-block text-xs" />) : A design system for [Bytedance](https://www.bytedance.com/en/).
-  
 - [Shopping AiRi](https://github.com/xieyezi/flutter-shopping-AiRi.git)(338+ <span class="i-carbon-star-filled inline-block text-xs" />) : A shopping app based on Flutter.
 
 - [React Antd Admin](https://github.com/WinmezzZ/react-antd-admin.git)(272+ <span class="i-carbon-star-filled inline-block text-xs" />) : A management system based on React, Antd and Typescript.
@@ -41,10 +38,9 @@ And more repo in [There](https://github.com/xieyezi).
 
 Recently I focus on [Typescript](https://www.typescriptlang.org/), [Vue](https://vuejs.org/) And [Vite](https://vitejs.dev/), as its ecosystem and community are exploding, I am write some plugins or tools based on them. At the same time, I am also write some [Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=xieyezi.incall-package-template) or [Node.js](https://www.npmjs.com/package/genji-es) tools to help my work.
 
-
 ### Work
 
-I am now working for [Changan Auto](http://www.globalchangan.com/).  I'm transitioning from Front-end Engineer to Front-end Architect, And My main focus right now is:
+I am now working for [Changan Auto](http://www.globalchangan.com/). I'm transitioning from Front-end Engineer to Front-end Architect, And My main focus right now is:
 
 - Upgrade the architecture of the old project (using the [monorepo](https://en.wikipedia.org/wiki/Monorepo).
 - Construction of infrastructure, including front-end development specifications, scaffolding, etc.
@@ -52,7 +48,7 @@ I am now working for [Changan Auto](http://www.globalchangan.com/).  I'm transit
 
 ### Posts
 
-In my free time, I write some posts in [Juejin](https://juejin.cn/user/4248168660738606/posts) to summarize and share. Luckily, I have received great feedback and my articles have reached [155k+](https://juejin.cn/user/4248168660738606/posts) views! 
+In my free time, I write some posts in [Juejin](https://juejin.cn/user/4248168660738606/posts) to summarize and share. Luckily, I have received great feedback and my articles have reached [155k+](https://juejin.cn/user/4248168660738606/posts) views!
 
 Here are some of my latest writings about Web.
 
@@ -62,15 +58,11 @@ Here are some of my latest writings about Web.
 
 And more post in [There](/article/javascript原型与原型链的深度解析.md).
 
-
 ### Contact
 
-You can find me in [@xieyezi Twitter](https://twitter.com/xieyezi), [@xieyezi Github](https://github.com/xieyezi),  [@xieyezi Juejin](https://juejin.cn/user/4248168660738606/posts), [@xieyezi Wechat](https://s2.loli.net/2022/04/25/WaQPSAmdbnEwLVu.jpg).
-
+You can find me in [@xieyezi Twitter](https://twitter.com/xieyezi), [@xieyezi Github](https://github.com/xieyezi), [@xieyezi Juejin](https://juejin.cn/user/4248168660738606/posts), [@xieyezi Wechat](https://s2.loli.net/2022/04/25/WaQPSAmdbnEwLVu.jpg).
 
 Thanks for your visit!
-
-[ZN](/index_CN.md)
 
 <style>
 main {
