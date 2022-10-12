@@ -11,7 +11,7 @@ footer: "MIT Licensed | Copyright © 2022-PRESENT xieyezi"
 ### Hi there 👋 <code>![visitors](https://visitor-badge.glitch.me/badge?page_id=xieyezi.xieyezi)</code>
 
 My name is xieyezi, I am a front-end developer from China, I love sharing and open source,
-my GitHub star count has reached [1.1k+](). The main technologies mastered includes:
+my GitHub star count has reached [1.3k+](). The main technologies mastered includes:
 
 <code><span class="i-logos-javascript inline-block text-lg" /> </code>
 <code><span class="i-logos-typescript-icon inline-block text-lg" /> </code>
@@ -23,14 +23,14 @@ my GitHub star count has reached [1.1k+](). The main technologies mastered inclu
 
 These are the repo I'm involved in maintaining：
 
-- [Semi Design](https://github.com/DouyinFE/semi-design.git)(5.7k+ <span class="i-carbon-star-filled inline-block text-xs" />) : A design system for [Bytedance](https://www.bytedance.com/en/).
-- [Shopping AiRi](https://github.com/xieyezi/flutter-shopping-AiRi.git)(338+ <span class="i-carbon-star-filled inline-block text-xs" />) : A shopping app based on Flutter.
+- [Semi Design](https://github.com/DouyinFE/semi-design.git)(6.3k+ <span class="i-carbon-star-filled inline-block text-xs" />) : A design system for [Bytedance](https://www.bytedance.com/en/).
+- [Shopping AiRi](https://github.com/xieyezi/flutter-shopping-AiRi.git)(370+ <span class="i-carbon-star-filled inline-block text-xs" />) : A shopping app based on Flutter.
 
 - [React Antd Admin](https://github.com/WinmezzZ/react-antd-admin.git)(272+ <span class="i-carbon-star-filled inline-block text-xs" />) : A management system based on React, Antd and Typescript.
 
-- [ Sku Algorithm](https://github.com/xieyezi/sku-algorithm.git)(83+ <span class="i-carbon-star-filled inline-block text-xs" />) : An Algorithm to Solve [SKU](https://zh.wikipedia.org/wiki/%E5%AD%98%E8%B4%A7%E5%8D%95%E4%BD%8D) problem.
+- [ Sku Algorithm](https://github.com/xieyezi/sku-algorithm.git)(98+ <span class="i-carbon-star-filled inline-block text-xs" />) : An Algorithm to Solve [SKU](https://zh.wikipedia.org/wiki/%E5%AD%98%E8%B4%A7%E5%8D%95%E4%BD%8D) problem.
 
-- [ Monia Cli](https://github.com/xieyezi/monia-cli.git)(54+ <span class="i-carbon-star-filled inline-block text-xs" />) : A scaffolding that supports Vue, React, and Flutter at the same time.
+- [ Monia Cli](https://github.com/xieyezi/monia-cli.git)(66+ <span class="i-carbon-star-filled inline-block text-xs" />) : A scaffolding that supports Vue, React, and Flutter at the same time.
 
 And more repo in [There](https://github.com/xieyezi).
 
@@ -42,13 +42,14 @@ Recently I focus on [Typescript](https://www.typescriptlang.org/), [Vue](https:/
 
 I am now working for [Changan Auto](http://www.globalchangan.com/). I'm transitioning from Front-end Engineer to Front-end Architect, And My main focus right now is:
 
-- Upgrade the architecture of the old project (using the [monorepo](https://en.wikipedia.org/wiki/Monorepo).
+- Upgrade the architecture of the old project (using the [monorepo](https://en.wikipedia.org/wiki/Monorepo)).
+- Changan Auto micro-application framework development work.
 - Construction of infrastructure, including front-end development specifications, scaffolding, etc.
 - Responsible for technical training and Code Review of front-end developers.
 
 ### Posts
 
-In my free time, I write some posts in [Juejin](https://juejin.cn/user/4248168660738606/posts) to summarize and share. Luckily, I have received great feedback and my articles have reached [155k+](https://juejin.cn/user/4248168660738606/posts) views!
+In my free time, I write some posts in [Juejin](https://juejin.cn/user/4248168660738606/posts) to summarize and share. Luckily, I have received great feedback and my articles have reached [199k+](https://juejin.cn/user/4248168660738606/posts) views!
 
 Here are some of my latest writings about Web.
 

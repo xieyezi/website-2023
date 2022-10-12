@@ -10,7 +10,7 @@ footer: "MIT Licensed | Copyright © 2022-PRESENT xieyezi"
    
 ### 你好 👋 <code>![visitors](https://visitor-badge.glitch.me/badge?page_id=xieyezi.xieyezi)</code>
 
-我叫 xieyezi，我是一名前端挖坑工程师，我热爱分享和开源，我的 GitHub star 数已达到 [1.1k+]()。我掌握的主要技术包括：
+我叫 xieyezi，我是一名前端挖坑工程师，我热爱分享和开源，我的 GitHub star 数已达到 [1.3k+]()。我掌握的主要技术包括：
 
 <code><span class="i-logos-javascript inline-block text-lg" /> </code>
 <code><span class="i-logos-typescript-icon inline-block text-lg" /> </code>
@@ -22,14 +22,14 @@ footer: "MIT Licensed | Copyright © 2022-PRESENT xieyezi"
 
 下面是我参与维护的开源项目：
 
-- [Semi Design](https://github.com/DouyinFE/semi-design.git)(5.7k+ <span class="i-carbon-star-filled inline-block text-xs" />) : [字节跳动-抖音](https://www.bytedance.com/en/) 的 UI 组件库.
-- [Shopping AiRi](https://github.com/xieyezi/flutter-shopping-AiRi.git)(338+ <span class="i-carbon-star-filled inline-block text-xs" />) : 由 Flutter 开发的购物 APP.
+- [Semi Design](https://github.com/DouyinFE/semi-design.git)(6.3k+ <span class="i-carbon-star-filled inline-block text-xs" />) : [字节跳动-抖音](https://www.bytedance.com/en/) 的 UI 组件库.
+- [Shopping AiRi](https://github.com/xieyezi/flutter-shopping-AiRi.git)(370+ <span class="i-carbon-star-filled inline-block text-xs" />) : 由 Flutter 开发的购物 APP.
 
 - [React Antd Admin](https://github.com/WinmezzZ/react-antd-admin.git)(272+ <span class="i-carbon-star-filled inline-block text-xs" />) : 基于 React, Antd 还有 Typescript 的管理系统.
 
-- [ Sku Algorithm](https://github.com/xieyezi/sku-algorithm.git)(83+ <span class="i-carbon-star-filled inline-block text-xs" />) : 解决 [SKU](https://zh.wikipedia.org/wiki/%E5%AD%98%E8%B4%A7%E5%8D%95%E4%BD%8D) 问题的方法.
+- [ Sku Algorithm](https://github.com/xieyezi/sku-algorithm.git)(98+ <span class="i-carbon-star-filled inline-block text-xs" />) : 解决 [SKU](https://zh.wikipedia.org/wiki/%E5%AD%98%E8%B4%A7%E5%8D%95%E4%BD%8D) 问题的方法.
 
-- [ Monia Cli](https://github.com/xieyezi/monia-cli.git)(54+ <span class="i-carbon-star-filled inline-block text-xs" />) : 同时支持 Vue, React 还有 Flutter 的脚手架.
+- [ Monia Cli](https://github.com/xieyezi/monia-cli.git)(66+ <span class="i-carbon-star-filled inline-block text-xs" />) : 同时支持 Vue, React 还有 Flutter 的脚手架.
 
 更多项目请看[这里](https://github.com/xieyezi).
 
@@ -42,13 +42,14 @@ footer: "MIT Licensed | Copyright © 2022-PRESENT xieyezi"
 我现在就职于[长安汽车](https://www.changan.com.cn/)。我正在从前端工程师的角色过渡到前端架构师，我现在主要集中于：
 
 - 升级老项目的前端架构（使用 [monorepo](https://en.wikipedia.org/wiki/Monorepo)）以及解决历史遗留问题（如性能优化）.
+- 长安汽车微应用框架开发工作.
 - 团队基础设施建设，包括前端开发规范、脚手架等等.
 - 负责前端开发人员的技术面试和 Code Review .
 - 负责新技术的调研和落地.
 
 ### 写作
 
-工作闲暇之余，我会在[掘金](https://juejin.cn/user/4248168660738606/posts)上写一些关于前端开发的技术文章来总结和分享。很幸运的是，这些文章在社区收到了很好的反馈，我的文章已经达到了 [155k+](https://juejin.cn/user/4248168660738606/posts) 的阅读量！
+工作闲暇之余，我会在[掘金](https://juejin.cn/user/4248168660738606/posts)上写一些关于前端开发的技术文章来总结和分享。很幸运的是，这些文章在社区收到了很好的反馈，我的文章已经达到了 [199k+](https://juejin.cn/user/4248168660738606/posts) 的阅读量！
 
 下面是我最近的一些文章：
 
