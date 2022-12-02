@@ -9,7 +9,7 @@ export default defineConfig({
     docsDir: "docs",
     docsBranch: "main",
     editLinks: true,
-    editLinkText: "此内容有错误？",
+    editLinkText: "帮助我改进此内容？",
     lastUpdated: "最后更新时间",
     sidebar: {
       "/": config
