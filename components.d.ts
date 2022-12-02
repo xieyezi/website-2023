@@ -7,6 +7,7 @@ declare module '@vue/runtime-core' {
   export interface GlobalComponents {
     Head: typeof import('./src/components/Head.vue')['default']
     Layout: typeof import('./src/components/Layout.vue')['default']
+    Year: typeof import('./src/components/Year.vue')['default']
   }
 }
 

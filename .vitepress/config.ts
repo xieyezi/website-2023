@@ -2,7 +2,7 @@ import { defineConfig } from "vitepress"
 import config from "../config"
 
 export default defineConfig({
-  title: "xieyezi ",
+  title: "xieyezi",
   description: "blog",
   themeConfig: {
     repo: "/xieyezi/vitepress-blog",

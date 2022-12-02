@@ -7,6 +7,7 @@ footer: "MIT Licensed | Copyright © 2022-PRESENT xieyezi"
 ---
 
 <Head />
+<Year />
    
 ### 你好 👋 <code>![visitors](https://visitor-badge.glitch.me/badge?page_id=xieyezi.xieyezi)</code>
 
