@@ -62,9 +62,7 @@ footer: "MIT Licensed | Copyright © 2022-PRESENT xieyezi"
 
 ## 演讲
 
-很有幸参加了由蚂蚁金服主办的 [2022 重庆前端技术分享交流会](https://zhuanlan.zhihu.com/p/581717444), 我分享的主题名称是：[长安汽车移动应用前端架构探索](https://www.bilibili.com/video/BV1Nm4y1F7B9/?spm_id_from=333.999.0.0).
-
-内容主要包括长安汽车云控 App 前端架构的探索, 从最初的集中式开发模式到微前端架构模式, 技术栈也从 Option API 升级到 Composition API, 从 Javascript 升级到了 Typescript.
+很有幸参加了由蚂蚁金服主办的 [2022 重庆前端技术分享交流会](https://zhuanlan.zhihu.com/p/581717444), 我分享的主题名称是：[长安汽车移动应用前端架构探索<span  class="i-carbon:play-outline inline-block vertical-middle ml-1 text-red-500" />](https://www.bilibili.com/video/BV1Nm4y1F7B9/?spm_id_from=333.999.0.0)。内容主要包括长安汽车云控 App 前端架构的探索, 从最初的集中式开发模式到微前端架构模式, 技术栈也从 Option API 升级到 Composition API, 从 Javascript 升级到了 Typescript.
 
 ### 联系
 
