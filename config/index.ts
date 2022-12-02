@@ -83,7 +83,7 @@ const article = [
         children: [
           { text: "2019一路走来", link: "/article/2019一路走来.html" },
           { text: "我的2018年总结", link: "/article/我的2018年总结.html" },
-          { text: "2022年终总结", link: "/article/2022年终总结.html" }
+          { text: "2022年终总结", link: "/article/2022-year-end-summary.html" }
         ]
       }
     ]
