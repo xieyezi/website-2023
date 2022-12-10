@@ -1,0 +1,33 @@
+name: blog-deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          cache: yarn
+      - run: yarn install
+
+      - name: Build
+        run: yarn docs:build
+
+      - name: Deploy
+        run: |
+          cd .vitepress/dist 
+          git init
+          git config user.name "xieyezi"
+          git config user.email "${{ secrets.GIT_EMAIL }}"
+          git add -A
+          git commit -m 'deploy'
+          git push -f git@github.com:xieyezi/xieyezi.github.io.git master
+          cd -
