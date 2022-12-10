@@ -7,7 +7,6 @@
     "dev": "vitepress --port 3000",
     "build": "vitepress build",
     "serve": "vitepress serve",
-    "deploy": "bash deploy.sh",
     "format": "prettier --write \".//**/*.ts\" \".//**/*.vue\" \".//**/*.md\""
   },
   "author": "xieyezi",
