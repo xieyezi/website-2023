@@ -35,5 +35,5 @@ jobs:
           git config user.email "${{ secrets.GIT_EMAIL }}"
           git add -A
           git commit -m 'deploy'
-          git push -f https://xieyezi:${{ secrets.BLOG_ACCESS_TOKEN }}@github.com:xieyezi/xieyezi.github.io.git master
+          git push -f https://github.com/xieyezi:${{ secrets.BLOG_ACCESS_TOKEN }}/xieyezi.github.io.git master
           cd -
