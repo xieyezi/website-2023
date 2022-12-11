@@ -44,6 +44,11 @@ jobs:
           branch: master
           directory: ".vitepress/dist"
           force: true
+      - name: copy nginx file to dist
+        uses: canastro/copy-file-action@master
+        with:
+          source: "nginx.conf"
+          target: ".vitepress/dist/nginx.conf"
 
       - name: Deploy to ECS Server
         uses: cross-the-world/scp-pipeline@master
