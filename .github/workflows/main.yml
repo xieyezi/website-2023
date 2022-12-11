@@ -40,7 +40,7 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.BLOG_ACCESS_TOKEN }}
-          repository: "xieyezi.github.io"
+          repository: "xieyezi/xieyezi.github.io"
           branch: master
           directory: ".vitepress/dist"
           force: true
