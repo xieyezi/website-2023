@@ -19,7 +19,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 16
-          cache: 'pnpm'
+          cache: "pnpm"
 
       - name: Install dependencies
         run: pnpm install
@@ -29,12 +29,12 @@ jobs:
 
       - name: Commit files
         run: |
-            cd .vitepress/dist 
-            git init
-            git config user.name "xieyezi"
-            git config user.email "1435398529@qq.com"
-            git add -A
-            git commit -m 'deploy'
+          cd .vitepress/dist 
+          git init
+          git config user.name "xieyezi"
+          git config user.email "1435398529@qq.com"
+          git add -A
+          git commit -m 'deploy'
 
       - name: Push to github pages repo
         uses: ad-m/github-push-action@master
@@ -45,3 +45,15 @@ jobs:
           directory: ".vitepress/dist"
           force: true
 
+      - name: Deploy to ECS Server
+        uses: cross-the-world/scp-pipeline@master
+        env:
+          WELCOME: "ssh scp ssh pipelines"
+          LASTSSH: "Doing something after copying"
+        with:
+          host: ${{ secrets.SERVER_USER_HOST }}
+          user: ${{ secrets.SERVER_USER_NAME }}
+          pass: ${{ secrets.SERVER_USER_PASSWORD }}
+          connect_timeout: 10s
+          local: ".vitepress/dist/*"
+          remote: /webroot/blog
