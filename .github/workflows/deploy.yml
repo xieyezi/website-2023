@@ -11,23 +11,23 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - uses: pnpm/action-setup@v2
+      - uses: pnpm/action-setup@v2 # use pnpm
         with:
           version: 7
 
-      - name: Use Node.js
+      - name: use Node.js
         uses: actions/setup-node@v3
         with:
           node-version: 16
           cache: "pnpm"
 
-      - name: Install dependencies
+      - name: install dependencies
         run: pnpm install
 
-      - name: Build
+      - name: build blog
         run: pnpm build
 
-      - name: Commit files
+      - name: commit build files
         run: |
           cd .vitepress/dist 
           git init
@@ -36,7 +36,7 @@ jobs:
           git add -A
           git commit -m 'deploy'
 
-      - name: Push to github pages repo
+      - name: push to github pages repo
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.BLOG_ACCESS_TOKEN }}
@@ -63,7 +63,7 @@ jobs:
           source: "server_deploy.sh"
           target: ".vitepress/dist/server_deploy.sh"
 
-      - name: Deploy to ECS Server
+      - name: upload vitepres/dist file to ecs server
         uses: cross-the-world/scp-pipeline@master
         env:
           WELCOME: "ssh scp ssh pipelines"
@@ -76,7 +76,7 @@ jobs:
           local: ".vitepress/dist"
           remote: /webroot/blog
 
-      - name: login ecs server and deploy
+      - name: login ecs server by ssh and deploy
         uses: appleboy/ssh-action@master
         with:
           host: ${{ secrets.SERVER_USER_HOST }}
