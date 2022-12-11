@@ -27,14 +27,21 @@ jobs:
       - name: Build
         run: pnpm build
 
-      - name: Deploy
-        run: |
+      - name: Commit files
+      run: |
           cd .vitepress/dist 
           git init
           git config user.name "xieyezi"
-          git config user.email "${{ secrets.GIT_EMAIL }}"
+          git config user.email "1435398529@qq.com"
           git add -A
           git commit -m 'deploy'
-          git push -f git push -f https://xieyezi:${{ secrets.BLOG_ACCESS_TOKEN }}@github.com/xieyezi/xieyezi.github.io.git master
-          cd -
+
+      - name: Push to github pages repo
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.BLOG_ACCESS_TOKEN }}
+          repository: "xieyezi.github.io"
+          branch: master
+          directory: ".vitepress/dist"
+          force: true
 
