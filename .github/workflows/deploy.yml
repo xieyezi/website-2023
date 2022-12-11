@@ -44,11 +44,18 @@ jobs:
           branch: master
           directory: ".vitepress/dist"
           force: true
+
       - name: copy nginx file to dist
         uses: canastro/copy-file-action@master
         with:
           source: "nginx.conf"
           target: ".vitepress/dist/nginx.conf"
+        
+        - name: copy Dockerfile file to dist
+        uses: canastro/copy-file-action@master
+        with:
+          source: "Dockerfile"
+          target: ".vitepress/dist/Dockerfile"
 
       - name: Deploy to ECS Server
         uses: cross-the-world/scp-pipeline@master
@@ -60,5 +67,5 @@ jobs:
           user: ${{ secrets.SERVER_USER_NAME }}
           pass: ${{ secrets.SERVER_USER_PASSWORD }}
           connect_timeout: 10s
-          local: ".vitepress/dist/*"
+          local: ".vitepress/dist"
           remote: /webroot/blog
