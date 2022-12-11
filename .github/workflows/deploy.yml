@@ -63,11 +63,11 @@ jobs:
           source: "server_deploy.sh"
           target: ".vitepress/dist/server_deploy.sh"
 
-      - name: upload vitepres/dist file to ecs server
+      - name: upload vitepress/dist files to ecs server
         uses: cross-the-world/scp-pipeline@master
         env:
           WELCOME: "ssh scp ssh pipelines"
-          LASTSSH: "Doing something after copying"
+          LASTSSH: "upload files after copying"
         with:
           host: ${{ secrets.SERVER_USER_HOST }}
           user: ${{ secrets.SERVER_USER_NAME }}
