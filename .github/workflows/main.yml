@@ -28,13 +28,13 @@ jobs:
         run: pnpm build
 
       - name: Commit files
-      run: |
-          cd .vitepress/dist 
-          git init
-          git config user.name "xieyezi"
-          git config user.email "1435398529@qq.com"
-          git add -A
-          git commit -m 'deploy'
+        run: |
+            cd .vitepress/dist 
+            git init
+            git config user.name "xieyezi"
+            git config user.email "1435398529@qq.com"
+            git add -A
+            git commit -m 'deploy'
 
       - name: Push to github pages repo
         uses: ad-m/github-push-action@master
