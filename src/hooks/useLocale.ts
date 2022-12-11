@@ -5,7 +5,7 @@ export function useLocale(init: "en" | "cn" = "en") {
 
   const setLocale = (val: "en" | "cn") => {
     locale.value = val
-    window.location.href = val === "en" ? "/" : "/index_CN"
+    window.location.href = val === "en" ? "http://www.xieyezi.com" : "http://www.xieyezi.com/index_CN.html"
   }
 
   return {
