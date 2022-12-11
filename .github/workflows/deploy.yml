@@ -51,7 +51,7 @@ jobs:
           source: "nginx.conf"
           target: ".vitepress/dist/nginx.conf"
         
-        - name: copy Dockerfile file to dist
+      - name: copy Dockerfile file to dist
         uses: canastro/copy-file-action@master
         with:
           source: "Dockerfile"
