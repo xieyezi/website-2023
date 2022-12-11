@@ -82,4 +82,4 @@ jobs:
           host: ${{ secrets.SERVER_USER_HOST }}
           username: ${{ secrets.SERVER_USER_NAME }}
           password: ${{ secrets.SERVER_USER_PASSWORD }}
-          script: cd .. && cd webroot/blog && sh server_deploy.sh
+          script: cd .. && cd webroot/blog/dist && sh server_deploy.sh
