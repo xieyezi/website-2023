@@ -11,7 +11,7 @@ footer: "MIT Licensed | Copyright © 2022-PRESENT xieyezi"
    
 ### 你好 👋 <code>![visitors](https://visitor-badge.glitch.me/badge?page_id=xieyezi.xieyezi)</code>
 
-我叫 xieyezi，我是一名前端挖坑工程师，我热爱分享和开源，我的 GitHub star 数已达到 [1.3k+]()。我掌握的主要技术包括：
+我是 xieyezi，我是一名前端工程师，我热爱分享和开源，我的 GitHub star 数已达到 [1.3k+]()。我掌握的主要技术包括：
 
 <code><span class="i-logos-javascript inline-block text-lg" /> </code>
 <code><span class="i-logos-typescript-icon inline-block text-lg" /> </code>
