@@ -9,7 +9,7 @@ footer: "MIT Licensed | Copyright © 2022-PRESENT xieyezi"
 <Head />
 <Year />
    
-### 你好 👋 <code>![visitors](https://visitor-badge.glitch.me/badge?page_id=xieyezi.xieyezi)</code>
+### 你好 👋 <code>![visitors](https://api.visitor.plantree.me/visitor-badge/pv?label=visitor&namespace=xieyezi666&key=index.html&color=blue)</code>
 
 我是 xieyezi，我是一名前端工程师，我热爱分享和开源，我的 GitHub star 数已达到 [1.3k+]()。我掌握的主要技术包括：
 
