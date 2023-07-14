@@ -9,7 +9,7 @@ footer: "MIT Licensed | Copyright © 2022-PRESENT xieyezi"
 <Head />
 <Year />
    
-### Hi there 👋 <code>![visitors](https://visitor-badge.glitch.me/badge?page_id=xieyezi.xieyezi)</code>
+### Hi there 👋 <code>![visitors](https://api.visitor.plantree.me/visitor-badge/pv?label=visitor&namespace=xieyezi666&key=index.html&color=blue)</code>
 
 My nickname is xieyezi, I am a front-end developer from China, I love sharing and open source,
 my GitHub star count has reached [1.3k+](). The main technologies mastered includes:
