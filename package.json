@@ -1,7 +1,8 @@
 {
-  "name": "vitepress-blog",
+  "name": "profile",
   "version": "1.0.0",
-  "description": "vitepress bloh",
+  "description": "xieyezi blog",
+  "private": true,
   "main": "index.js",
   "scripts": {
     "dev": "vitepress --port 3000",

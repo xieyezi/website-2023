@@ -72,7 +72,7 @@ jobs:
           host: ${{ secrets.SERVER_USER_HOST }}
           user: ${{ secrets.SERVER_USER_NAME }}
           pass: ${{ secrets.SERVER_USER_PASSWORD }}
-          connect_timeout: 10s
+          connect_timeout: 15s
           local: ".vitepress/dist"
           remote: /webroot/blog
 
